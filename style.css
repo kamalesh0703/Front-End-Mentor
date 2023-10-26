@@ -22,6 +22,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 15px 20px;
+    z-index: 99;
 }
 .nav-list-left{
     display: flex;
@@ -30,6 +31,7 @@ nav{
 }
 .logo{
     font-weight: 700;
+    margin-right: 25px;
 }
 .nav-list{
     display: flex;
@@ -38,4 +40,83 @@ nav{
 }
 .nav-link{
     list-style: none;
+    margin: 0px 15px;
+    color: var(--Medium-Gray);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+
 }
+.nav-link:hover{
+    color: var(--Almost-Black);
+}
+.nav-link>i{
+    padding: 0px 2px;
+}
+.register{
+    padding: 10px 15px;
+    border: 2px solid var(--Medium-Gray);
+    border-radius: .8rem;
+}
+.register:hover{
+    border-color: var(--Almost-Black);
+}
+.features{
+    position: relative;
+}
+.features-list{
+    display: none;
+    width: max-content;
+    position: absolute;
+    top: 35px;
+    left: -10px;
+    background-color: #fff;
+    padding: 20px 20px;
+    box-shadow: 5px 10px 8px 10px hsla(0, 0%, 41%, 0.101);
+    border-radius: .5rem;
+    text-align: left;
+}
+.features-link{
+    list-style-type: none;
+    padding: 7px 0px;
+    color: var(--Medium-Gray);
+}
+.features-link:hover{
+    color: var(--Almost-Black);
+}
+.features:hover .features-list{
+    display: block;
+}
+
+.features-link>i{
+    padding-right: 10px;
+}
+.company{
+    position: relative;
+}
+.company-list{
+    display: none;
+    width: max-content;
+    position: absolute;
+    top: 35px;
+    left: -10px;
+    background-color: #fff;
+    padding: 20px 20px;
+    box-shadow: 5px 10px 8px 10px hsla(0, 0%, 41%, 0.101);
+    border-radius: .5rem;
+    text-align: left;
+}
+.company:hover .company-list{
+    display: block;
+}
+.company-link{
+    list-style-type: none;
+    color: var(--Medium-Gray);
+    padding: 8px 0px;
+}
+.company-link:hover{
+    color: var(--Almost-Black);
+}
+
+/* Main Section */
