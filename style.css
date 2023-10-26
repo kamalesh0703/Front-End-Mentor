@@ -28,6 +28,9 @@ nav{
     align-items: center;
     justify-content: center;
 }
+.logo{
+    font-weight: 700;
+}
 .nav-list{
     display: flex;
     align-items: center;
