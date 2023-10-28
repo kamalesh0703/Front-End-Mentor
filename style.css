@@ -300,7 +300,7 @@ li > img {
     text-align: center;
   }
   .content {
-    padding-top: 35px;
+    padding: 35px 5px 0 5px;
     height: max-content;
     display: flex;
     flex-direction: column;
