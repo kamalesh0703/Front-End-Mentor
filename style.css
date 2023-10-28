@@ -146,7 +146,7 @@ li > img {
   .mob-nav-bar {
     position: absolute;
     width: 65%;
-    min-height: 100vh;
+    max-height: 100vh;
     top: 0px;
     right: -225px;
     background-color: #fff;
